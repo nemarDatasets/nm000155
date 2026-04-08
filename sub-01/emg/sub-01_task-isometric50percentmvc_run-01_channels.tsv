@@ -1,4 +1,4 @@
-name	type	units	description	sampling_frequency	signal_electrode	reference	group	target_muscle	low_cutoff	high_cutoff
+name	type	units	ch_description	sampling_frequency	signal_electrode	reference	group	target_muscle	low_cutoff	high_cutoff
 Ch001	EMG	mV	ElectroMyoGraphy	2048	E001	R1	grid1	right tibialis anterior	500	10
 Ch002	EMG	mV	ElectroMyoGraphy	2048	E002	R1	grid1	right tibialis anterior	500	10
 Ch003	EMG	mV	ElectroMyoGraphy	2048	E003	R1	grid1	right tibialis anterior	500	10
