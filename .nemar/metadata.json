@@ -1,0 +1,107 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Arnault H. Caillet": {},
+    "Simon Avrillon": {
+      "orcid": "0000-0002-2226-3528"
+    },
+    "Aritra Kundu": {},
+    "Tianyi Yu": {},
+    "Andrew T. M. Phillips": {},
+    "Luca Modenese": {
+      "orcid": "0000-0003-1402-5359"
+    },
+    "Dario Farina": {
+      "orcid": "0000-0002-7883-2697"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.22149287",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1523/ENEURO.0064-23.2023",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000155",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000155",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.7910/DVN/F9GWIW",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council (EPSRC) Transformative Healthcare"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "810346",
+      "award_title": "NaturalBionicS Synergy Grant"
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/T020970",
+      "award_title": "Non-Invasive Single Neuron Electrical Monitoring (NISNEM Technology) Grant"
+    },
+    {
+      "funder_name": "Biotechnology and Biological Sciences Research Council",
+      "award_number": "NU-003743",
+      "award_title": "Neural Commands for Fast Movements in the Primate Motor System"
+    }
+  ],
+  "title": "MUniverse Caillet et al 2023",
+  "license": "CC0 BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "emg"
+  ],
+  "resource_type_specific": "EMG Dataset",
+  "sizes": [
+    "469.7 MB (12 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "High-density surface electromyography (HDsEMG) recordings from six healthy male subjects performing isometric contractions of the tibialis anterior muscle at 30% and 50% maximum voluntary contraction. The dataset comprises 256-channel electrode grids positioned on the muscle belly with synchronized force measurements, designed to investigate optimal electrode configurations for motor unit identification and representation.",
+  "methods_description": "Participants performed trapezoidal isometric contractions at 30% and 50% MVC with linear ramps at 5% per second and plateaus of 20s and 15s respectively. Four 64-channel electrode grids (4-mm inter-electrode spacing) were positioned on the right tibialis anterior muscle. Force was recorded simultaneously using a load cell connected to a commercial dynamometer. Skin preparation included shaving, abrasion, and cleansing with 70% ethyl alcohol.",
+  "keywords": [
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "motor units"
+    },
+    {
+      "term": "muscle contraction"
+    },
+    {
+      "term": "isometric contraction"
+    },
+    {
+      "term": "tibialis anterior"
+    },
+    {
+      "term": "high-density surface EMG"
+    }
+  ],
+  "source_hash": "233c14588379c88c493a13e6d44e35da29d310c89c1b10ad1510e758088b65c5"
+}
